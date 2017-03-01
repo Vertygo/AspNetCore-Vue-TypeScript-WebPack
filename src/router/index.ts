@@ -1,10 +1,10 @@
 ﻿import * as Vue from "vue";
-import * as Router from "vue-router";
+import * as VueRouter from "vue-router";
 import * as Hello from "components/Hello.vue";
 
-Vue.use(Router)
+Vue.use(VueRouter)
 
-export default new Router({
+export default new VueRouter({
   routes: [
     {
       path: '/',

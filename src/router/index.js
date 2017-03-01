@@ -1,10 +1,10 @@
 "use strict";
 var Vue = require("vue");
-var Router = require("vue-router");
+var VueRouter = require("vue-router");
 var Hello = require("components/Hello.vue");
-Vue.use(Router);
+Vue.use(VueRouter);
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.default = new Router({
+exports.default = new VueRouter({
     routes: [
         {
             path: '/',
