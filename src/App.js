@@ -12,6 +12,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 var Vue = require("vue");
 var vue_class_component_1 = require("vue-class-component");
+require("assets/wijmo.css");
 var App = (function (_super) {
     __extends(App, _super);
     function App() {

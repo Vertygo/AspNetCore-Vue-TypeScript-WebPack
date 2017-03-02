@@ -42,6 +42,18 @@ module.exports = {
         options: {
           formatter: require('eslint-friendly-formatter')
         }
+        },
+      {
+          test: /\.css$/,
+          loaders: ['style-loader', 'vue-style-loader']
+      },
+      {
+          test: /\.png$/,
+          use: { loader: 'url-loader', options: { limit: 100000 } },
+      },
+      {
+          test: /\.jpg$/,
+          use: ['file-loader']
       },
       {
         test: /\.vue$/,

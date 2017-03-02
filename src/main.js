@@ -4,6 +4,7 @@
 var Vue = require("vue");
 var App = require("./App.vue");
 var router_1 = require("./router");
+require("assets/wijmo.vue2.min");
 /* eslint-disable no-new */
 new Vue({
     el: "#app",
